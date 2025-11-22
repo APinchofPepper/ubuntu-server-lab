@@ -3,15 +3,15 @@
 ## Virtual Machine Specifications
 
 ### Hardware Configuration
-- **CPU**: 2 vCPU
-- **RAM**: 2 GB
-- **Disk**: 20 GB
+- **CPU**: 4 vCPU
+- **RAM**: 4 GB
+- **Disk**: 25 GB
 - **Network**: NAT (default)
 
 ### Software Configuration
-- **OS**: Ubuntu Server LTS (24.04 or 22.04)
-- **Hypervisor**: [VMware Workstation / VirtualBox / Proxmox]
-- **Installation Date**: [Date]
+- **OS**: Ubuntu Server 24.04.3 LTS
+- **Hypervisor**: Oracle VM VirtualBox
+- **Installation Date**: 11/21/2025
 
 ## Installation Steps Completed
 
@@ -22,15 +22,22 @@
 
 ## Network Configuration
 
-- **IP Address**: [To be configured]
-- **Hostname**: [To be configured]
+- **IP Address**: 10.0.2.15 (enp0s3)
+- **Hostname**: ubuntu-server
 - **SSH Port**: 22 (default)
 
 ## Initial System Information
 
-- **Kernel Version**: [Run `uname -r` to get]
-- **Ubuntu Version**: [Run `lsb_release -a` to get]
-- **Disk Usage**: [Run `df -h` to get]
+- **Kernel Version**: 6.8.0-88-generic x86_64
+- **Ubuntu Version**: 24.04.3 LTS
+- **Disk Usage**: 42.4% of 11.21GB (root filesystem)
+- **Memory Usage**: 7% (of 4 GB)
+- **System Load**: 0.2
+- **Processes**: 152
+
+## Screenshots
+
+- **Successful Login**: `screenshots/install/01_LogIn.png` - Shows successful login and initial system information
 
 ## Notes
 
