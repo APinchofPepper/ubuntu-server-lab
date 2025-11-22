@@ -1,0 +1,10 @@
+# User Management Screenshots
+
+Place Part 2 screenshots here:
+- 01_UserList.png - List of created users (alice, bob, charlie)
+- 02_UserGroups.png - Group membership for each user
+- 03_SharedPermissions.png - /shared directory permissions
+- 04_SecurePermissions.png - /secure directory permissions
+- 05_DevGroup.png - dev group verification
+- 06_UserCreationLogs.png (optional) - User creation process
+

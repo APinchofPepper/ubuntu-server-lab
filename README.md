@@ -23,8 +23,10 @@ This project complements the Windows Server + AD project and provides practical 
 ubuntu-server-lab/
 ├── README.md
 ├── vm-notes.md
+├── user-management.md
 ├── screenshots/
-│   └── install/
+│   ├── install/
+│   └── user-management/
 └── scripts/
 ```
 
@@ -37,11 +39,18 @@ ubuntu-server-lab/
 - [x] Update system packages
 - [x] Screenshot of successful login: `screenshots/install/01_LogIn.png`
 
-### Part 2 — Coming Soon
-- User management
-- SSH hardening
-- Service configuration
-- System monitoring
+### Part 2 — User Management + Permissions
+- [x] Create new users (alice, bob, charlie)
+- [x] Create dev group and add alice to it
+- [x] Create shared directory (/shared) with group permissions
+- [x] Create secure directory (/secure) with restricted access
+- [x] Document commands in `user-management.md`
+- [x] Screenshots:
+  - `screenshots/user-management/01_UserList.png` - List of created users
+  - `screenshots/user-management/02_UserGroups.png` - Group membership
+  - `screenshots/user-management/03_SharedPermissions.png` - Shared directory permissions
+  - `screenshots/user-management/04_SecurePermissions.png` - Secure directory permissions
+  - `screenshots/user-management/05_DevGroup.png` - Dev group verification
 
 ## Prerequisites
 

@@ -37,7 +37,15 @@
 
 ## Screenshots
 
+### Part 1 - Installation
 - **Successful Login**: `screenshots/install/01_LogIn.png` - Shows successful login and initial system information
+
+### Part 2 - User Management
+- **User List**: `screenshots/user-management/01_UserList.png` - List of created users (alice, bob, charlie)
+- **User Groups**: `screenshots/user-management/02_UserGroups.png` - Group membership verification
+- **Shared Permissions**: `screenshots/user-management/03_SharedPermissions.png` - /shared directory permissions
+- **Secure Permissions**: `screenshots/user-management/04_SecurePermissions.png` - /secure directory permissions
+- **Dev Group**: `screenshots/user-management/05_DevGroup.png` - Dev group verification
 
 ## Notes
 
