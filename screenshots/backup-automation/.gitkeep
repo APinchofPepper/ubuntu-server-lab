@@ -1,0 +1,8 @@
+# Backup Automation Screenshots
+
+Part 4 screenshots:
+- 01_ScriptCreation.png - Creating backup.sh script with vim
+- 02_ScriptExecution.png - Running the backup script
+- 03_BackupVerification.png - Listing created backups
+- 04_CronJobEntry.png - Scheduling backup script with cron (daily at 2 AM)
+

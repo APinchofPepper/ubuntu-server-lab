@@ -25,11 +25,14 @@ ubuntu-server-lab/
 ├── vm-notes.md
 ├── user-management.md
 ├── services.md
+├── backup-automation.md
 ├── screenshots/
 │   ├── install/
 │   ├── user-management/
-│   └── services/
+│   ├── services/
+│   └── backup-automation/
 └── scripts/
+    └── backup.sh
 ```
 
 ## Lab Parts
@@ -68,6 +71,21 @@ ubuntu-server-lab/
   - `screenshots/services/04_UFWServiceStatus.png` - UFW service status
   - `screenshots/services/05_ApacheInstallation.png` - Apache installation and status
   - `screenshots/services/06_ServiceControl.png` - Service control commands
+
+### Part 4 — Backup Automation Script
+- [x] Create source directory (~/important-data)
+- [x] Create backups directory (~/backups)
+- [x] Create backup.sh script with timestamp functionality (using vim)
+- [x] Make script executable
+- [x] Test script execution
+- [x] Verify backup creation
+- [x] Schedule script with cron (daily at 2 AM)
+- [x] Document script in `backup-automation.md`
+- [x] Screenshots:
+  - `screenshots/backup-automation/01_ScriptCreation.png` - Creating backup.sh script with vim
+  - `screenshots/backup-automation/02_ScriptExecution.png` - Running the backup script
+  - `screenshots/backup-automation/03_BackupVerification.png` - Listing created backups
+  - `screenshots/backup-automation/04_CronJobEntry.png` - Scheduling backup script with cron
 
 ## Prerequisites
 

@@ -55,6 +55,12 @@
 - **Apache Installation**: `screenshots/services/05_ApacheInstallation.png` - Apache installation and status
 - **Service Control**: `screenshots/services/06_ServiceControl.png` - Enable/disable/restart commands
 
+### Part 4 - Backup Automation
+- **Script Creation**: `screenshots/backup-automation/01_ScriptCreation.png` - Creating backup.sh script with vim
+- **Script Execution**: `screenshots/backup-automation/02_ScriptExecution.png` - Running the backup script
+- **Backup Verification**: `screenshots/backup-automation/03_BackupVerification.png` - Listing created backups
+- **Cron Job Entry**: `screenshots/backup-automation/04_CronJobEntry.png` - Scheduling backup script with cron (daily at 2 AM)
+
 ## Notes
 
 - SSH server is installed and enabled
