@@ -1,0 +1,10 @@
+# Service Management Screenshots
+
+Part 3 screenshots:
+- 01_ApacheTestPage.png - Apache default test page in browser
+- 02_SSHServiceStatus.png - SSH service status check
+- 03_CronServiceStatus.png - Cron service status (disabled)
+- 04_UFWServiceStatus.png - UFW service status (enabled)
+- 05_ApacheInstallation.png - Apache installation and status
+- 06_ServiceControl.png - Enable/disable/restart commands
+

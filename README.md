@@ -24,9 +24,11 @@ ubuntu-server-lab/
 ├── README.md
 ├── vm-notes.md
 ├── user-management.md
+├── services.md
 ├── screenshots/
 │   ├── install/
-│   └── user-management/
+│   ├── user-management/
+│   └── services/
 └── scripts/
 ```
 
@@ -51,6 +53,21 @@ ubuntu-server-lab/
   - `screenshots/user-management/03_SharedPermissions.png` - Shared directory permissions
   - `screenshots/user-management/04_SecurePermissions.png` - Secure directory permissions
   - `screenshots/user-management/05_DevGroup.png` - Dev group verification
+
+### Part 3 — Service Management
+- [x] Check system services (ssh, cron, ufw)
+- [x] Enable and start UFW service
+- [x] Disable cron service
+- [x] Install Apache web server
+- [x] Manage Apache service (status, restart, enable at boot)
+- [x] Document commands in `services.md`
+- [x] Screenshots:
+  - `screenshots/services/01_ApacheTestPage.png` - Apache default test page
+  - `screenshots/services/02_SSHServiceStatus.png` - SSH service status
+  - `screenshots/services/03_CronServiceStatus.png` - Cron service status
+  - `screenshots/services/04_UFWServiceStatus.png` - UFW service status
+  - `screenshots/services/05_ApacheInstallation.png` - Apache installation and status
+  - `screenshots/services/06_ServiceControl.png` - Service control commands
 
 ## Prerequisites
 

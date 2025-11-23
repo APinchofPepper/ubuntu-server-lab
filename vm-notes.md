@@ -47,6 +47,14 @@
 - **Secure Permissions**: `screenshots/user-management/04_SecurePermissions.png` - /secure directory permissions
 - **Dev Group**: `screenshots/user-management/05_DevGroup.png` - Dev group verification
 
+### Part 3 - Service Management
+- **Apache Test Page**: `screenshots/services/01_ApacheTestPage.png` - Apache default test page in browser
+- **SSH Service Status**: `screenshots/services/02_SSHServiceStatus.png` - SSH service status check
+- **Cron Service Status**: `screenshots/services/03_CronServiceStatus.png` - Cron service status (disabled)
+- **UFW Service Status**: `screenshots/services/04_UFWServiceStatus.png` - UFW service status (enabled)
+- **Apache Installation**: `screenshots/services/05_ApacheInstallation.png` - Apache installation and status
+- **Service Control**: `screenshots/services/06_ServiceControl.png` - Enable/disable/restart commands
+
 ## Notes
 
 - SSH server is installed and enabled
